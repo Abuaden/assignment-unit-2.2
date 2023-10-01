@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  We make a variable called name and set it equal to 'Dane' as a name.
+// We check if name variable is equal to 'Mary' 
+// If so we console.log 'Hi, Mary'
+// Else console.log will give the response 'How do you do'.
 
 //CODE
 /*
@@ -45,11 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We set a variable called secret and another variable called code and set it equal to 123.
+// We check if code is equal to 123.
+// If so we set secret 'to super' and we set code equal to code * 2 and we console.log secret
+// If code is greater than 250 we set secret to 'duper' and we console.log secret
 //CODE
 /*
 let secret;
@@ -70,10 +69,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set 3 variables, isStudent is true, age is equal to 34 and zip is equal to 55407
+// We check if isStudent is equal to true and zip is greater than 80000, if so we console.log 'You're a student on the West Coast!'
+// Otherwise check if isStudent is equal to false or age is less than 30, if so we console.log 'What are your hobbies?'
+// Otherwise we check if isStudent is true, if so we console.log 'Welcome to Prime!'
+// If all checks are not true we console.log 'How about the Weather?'
 
 //CODE
 /*
@@ -130,11 +130,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
+// FIX - colorOne = 'red', but instructions say we set it to blue
+let colorOne = 'red'; 
+
+// FIX - colorTwo = 'blue', but instructions say we set it to red
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX - Only colorOne is equal to purple  but instructions say colorOne and colorTwo are equal to purple
   colorOne = 'purple';
 }
 */
@@ -147,6 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Here we're checking if temp is greater than 39 or time is greater or equal to 4 but instructions say to check both are true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,10 +164,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - Here the instructions were flipped 
 if(minAge <= age) {
+// FIX - We're supposed to conole.log enter and not entry
   console.log('no entry');
 } else {
+ // FIX - This conole.log is in the wrong place.
   console.log('enter');
 }
 */
